@@ -1,6 +1,6 @@
 source("powerdata.R") # loads and extracts data of interest into data.frame called df2
 
-png("plot4.png")
+png("plot4.png") #default file size is 480 px x 480 px
 par(mfcol=c(2,2))
 plot(df2$DateTime, df2$Global_active_power, type='l', xlab="", ylab = "Global Active Power (kilowatts)")
 
